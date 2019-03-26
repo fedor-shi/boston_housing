@@ -12112,6 +12112,12 @@ Standard deviation of prices: $165171.13154429474
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> I consider the model to have successfully captured the variation of the target variable. It shows that 92.3 % is predictable.</p>
+<p><strong>Update:</strong> R-squared simply explains how good is your model when compared to the <a href="https://cdn-images-1.medium.com/max/1600/1*SXq8PJ0r0vUwpj6lwZS9NQ.png">baseline model</a>.</p>
+<ol>
+<li>Our worst possible regression model could be the baseline model itself. Hence SSE would be equal to SST in this case. <a href="https://cdn-images-1.medium.com/max/1600/1*ZMWDxWV7hY9RSRXCkUE_1g.png">R-squared=1–1=0</a>.</li>
+<li>And our best model would be the one that fits all the data points perfectly so SSE in this case would be 0. <a href="https://cdn-images-1.medium.com/max/1600/1*n3luq_3coDNdT4A4iVIvFg.png">R-squared=1–0=1</a>.</li>
+</ol>
+<p>If R-squared=0.923 then it means 92.3% variations in dependent variable are explained by the independent variables present in our model.</p>
 
 </div>
 </div>
@@ -12552,6 +12558,7 @@ Think about the pros and cons of adding more training points based on if the tra
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong> Hint: </strong> The answer comes from the output of the code snipped above.</p>
 <p><strong>Answer:</strong> 4</p>
+<p><strong>Update:</strong> The answer of 4 is the same what I did in Question 6. We can see that the Complexity Curve could be helpful at some point.</p>
 
 </div>
 </div>
@@ -12645,6 +12652,7 @@ Predicted selling price for Client 3&#39;s home: $893,760.00
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> Predicted selling price for Client 1's home: $327,450.00, Predicted selling price for Client 2's home: $216,232.26 and Predicted selling price for Client 3's home: $893,760.00. The prices seem reasonable looking at the values for the respective features.</p>
+<p><strong>Update:</strong> We clearly can see that our observations in the Data Exploration confirmed. As the Neighborhood poverty level goes down the price goes up. A student-teacher ratio of nearby schools also affects the price, it's better to have a house in the area where the education is available. Also, people prefer to see more rooms in their house which raises the prices. Although I would be interested to see how all these parameters affect the price, when one of them is different and the others are identical.</p>
 
 </div>
 </div>
